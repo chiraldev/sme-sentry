@@ -67,8 +67,8 @@ services:
     links:
         - web
     volumes:
-        - "~/qa/nginx/certs:/etc/nginx/ssl"
-        - "~/qa/nginx/conf.d:/etc/nginx/conf.d"
+        - "~/.sentry/nginx/certs:/etc/nginx/ssl"
+        - "~/.sentry/nginx/conf.d:/etc/nginx/conf.d"
 
 volumes:
     sentry-data:
